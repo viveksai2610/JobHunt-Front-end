@@ -1,0 +1,18 @@
+.salary-range-item-container {
+  margin: 15px;
+  font-family: Roboto;
+  color: #ffffff;
+}
+.radio-label-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.label {
+  font-size: 20px;
+}
+.input-radio {
+  height: 30px;
+  margin-right: 10px;
+}

@@ -1,0 +1,18 @@
+.employment-type-item-container {
+  margin: 15px;
+  font-family: Roboto;
+  color: #ffffff;
+}
+.checkbox-label-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.label {
+  font-size: 20px;
+}
+.input-checkbox {
+  height: 30px;
+  margin-right: 10px;
+}

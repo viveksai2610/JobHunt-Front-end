@@ -1,0 +1,30 @@
+.company-logo-name-container {
+  display: flex;
+  align-items: center;
+}
+.company-name-container {
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+.icon {
+  color: #fbbf24;
+  height: 25px;
+  margin: 10px;
+}
+.similar-job-item-container {
+  margin: 15px;
+  padding: 15px;
+  background-color: #202020;
+  border-radius: 12px;
+  width: 300px;
+}
+.side-heading {
+  font-size: 20px;
+}
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}

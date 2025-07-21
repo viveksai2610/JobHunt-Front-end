@@ -1,0 +1,126 @@
+.login-bg-container {
+  height: 100vh;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  padding: 20px;
+  color: #ffffff;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-msg {
+  color: #ff0b37;
+}
+.login-page-website-name {
+  font-family: cursive;
+  color: #4f46e5;
+}
+.show-password-container {
+  display: flex;
+  align-items: center;
+}
+.show-password-input-label {
+  color: #ffffff;
+}
+@media screen and (min-width: 769px) {
+  .login-page-website-name {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  .form-container {
+    border-radius: 15px;
+  }
+  .input-label {
+    font-size: 20px;
+  }
+  .input-element {
+    margin-top: 12px;
+    margin-bottom: 23px;
+    padding: 10px;
+    height: 40px;
+    width: 280px;
+    color: #ffffff;
+    font-size: 16px;
+    border-color: #ffffff;
+    border-radius: 6px;
+    background-color: transparent;
+  }
+  .login-btn {
+    height: 45px;
+    width: 300px;
+    color: #ffffff;
+    background-color: #4f46e5;
+    border-radius: 12px;
+    border-width: 0px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .error-msg {
+    font-size: 15px;
+  }
+  .show-password-container {
+    margin-bottom: 20px;
+  }
+  .checkbox-input {
+    height: 16px;
+    width: 16px;
+    margin-left: 5px;
+  }
+  .show-password-input-label {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-page-website-name {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  .form-container {
+    border-radius: 12px;
+  }
+  .input-label {
+    font-size: 15px;
+  }
+  .input-element {
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 18px;
+    height: 35px;
+    width: 200px;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 6px;
+    border-color: #ffffff;
+    background-color: transparent;
+  }
+  .login-btn {
+    height: 40px;
+    width: 200px;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #4f46e5;
+    border-radius: 12px;
+    border-width: 0px;
+    cursor: pointer;
+  }
+  .error-msg {
+    font-size: 12px;
+  }
+  .show-password-container {
+    margin-bottom: 20px;
+  }
+  .checkbox-input {
+    height: 15px;
+    width: 15px;
+  }
+  .show-password-input-label {
+    font-size: 15px;
+  }
+}
